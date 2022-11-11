@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/front-challenge/static/css/main.35f443d7.css",
+    "main.js": "/front-challenge/static/js/main.0a4f64c2.js",
+    "static/media/cover.jpg": "/front-challenge/static/media/cover.bae8d29563dc91b33996.jpg",
+    "index.html": "/front-challenge/index.html",
+    "main.35f443d7.css.map": "/front-challenge/static/css/main.35f443d7.css.map",
+    "main.0a4f64c2.js.map": "/front-challenge/static/js/main.0a4f64c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35f443d7.css",
+    "static/js/main.0a4f64c2.js"
+  ]
+}
