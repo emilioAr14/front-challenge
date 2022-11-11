@@ -1,0 +1,38 @@
+$primary-color: rgb(56, 71, 206);
+
+#App {
+    width: 100vw;
+    height: 100vh;
+    color: $primary-color;
+    display: grid;
+    grid-template: repeat(8, 1fr) / 160px repeat(4, 1fr);
+    column-gap: 30px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 10;
+        width: 30vw;
+        height: 25vw;
+        border-radius: 50%;
+        background: $primary-color;
+        bottom: 0;
+        left: 0;
+        transform: translate(-50%, 50%);
+        mix-blend-mode: multiply;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 18vw;
+        height: 18vw;
+        border-radius: 50%;
+        background: $primary-color;
+        bottom: 0;
+        left: 10vw;
+        transform: translateY(70%);
+        mix-blend-mode: multiply;
+        box-shadow: 2px -2px 15px;
+    }
+}

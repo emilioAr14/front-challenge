@@ -1,0 +1,25 @@
+$primary-color: rgb(56, 71, 206);
+
+.nav-container {
+    height: 53vh;
+    width: 40px;
+    grid-row: 2/7;
+    grid-column: 1;
+    margin-top: 20px;
+    border-radius: 0 20px 20px 0;
+    background-color: $primary-color;
+    transition: all 400ms ease;
+    transition-delay: 400ms;
+    overflow: hidden;
+    box-shadow: 1px 4px 15px #0000008a;
+
+    .nav {
+        height: 100%;
+        display: grid;
+    }
+    
+    &:hover {
+        width: 160px;
+        transition-delay: 0s;
+    }
+}

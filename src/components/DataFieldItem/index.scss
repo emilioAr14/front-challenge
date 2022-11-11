@@ -1,0 +1,23 @@
+.dataField-item {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .dataField-item__name {
+        margin-left: 5px;
+        font-weight: 700;
+    }
+
+    .dataField-item__value-wrapper {
+        width: 85%;
+        border: 2px solid;
+        border-radius: 25px;
+        padding: 5px 0;
+
+        .dataField-item__value {
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+}

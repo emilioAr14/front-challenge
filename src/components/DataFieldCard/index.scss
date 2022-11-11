@@ -1,0 +1,12 @@
+.dataField-card {
+    grid-row: 3/8;
+    grid-column: 3/6;
+    border-radius: 20px;
+    font-size: 18px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(11px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
